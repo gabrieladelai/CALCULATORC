@@ -1,0 +1,15 @@
+            printf("DESCONECTANDO...AGUARDE.... \nPROGRAMA FINALIZADO COM SUCESSO! .... PRESSIONE A TECLA ENTER PARA SAIR!\n");                   // SAIR
+            exit(1); // SAINDO SOMENTE NA OPÇÃO 5
+
+
+        default:
+            printf("** DIGITE UMA OPCAO QUE SEJA VALIDA **\n\n");                  // OPÇÃO INVALIDA
+
+        }
+    }
+    while(1);   // ....PERMANECER NO MENU....
+
+
+    printf("\n\n\n\n\n\n\n\n\n\n\n");
+    return 0;
+}
