@@ -1,0 +1,15 @@
+  int n, p;
+            printf("Entre com o valor de n: ");
+            scanf("%d", &n);
+            printf("Entre com o valor de p: ");
+            scanf("%d", &p);
+
+            if (p >= n) {
+                printf("Erro: n deve ser maior do que p");
+            } else 
+            
+            {
+                printf("RESULTADO: %f\n", combinacao(n, p));
+            }
+        }
+        break;
