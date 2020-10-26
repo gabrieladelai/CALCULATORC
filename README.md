@@ -1,6 +1,8 @@
 # CALCULATORC
 A calculadora foi desenvolvida para apresentação do Projeto Integrador da FATEC. As coordenadas exigidas foram:  
+
 "IDENTIDADE VISUAL: Nome e logo para a calculadora. 
+
 ELEMENTOS A SEREM DESENVOLVIDOS: 
 
 a) Operações de somatório, lógica proposicional, matrizes e análise combinatória.
