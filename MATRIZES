@@ -1,0 +1,72 @@
+opcao_matrizes() {
+    int opcao;
+
+    printf("1 - Soma \n");
+    printf("2 - SubtracaoL \n");
+    printf("3 - Produto \n");
+    printf("4 - Voltar \n");
+
+    printf(" * DIGITE A OPCAO ALMEJADA: ");
+    scanf("%d", &opcao);
+
+    return opcao;
+}
+
+int permutacao(int value) {
+    int i;
+    int total = 1;
+    for (i = value; i > 0; i--) {
+        total = total*i;
+    }
+
+    return total;
+}
+
+int a11, a12, a21, a22;
+            int b11, b12, b21, b22;
+
+            int opcao = opcao_matrizes();
+
+            printf("a11: ");
+            scanf("%d", &a11);
+            printf("a12: ");
+            scanf("%d", &a12);
+            printf("a21: ");
+            scanf("%d", &a21);
+            printf("a22: ");
+            scanf("%d", &a22);
+            printf("b11: ");
+            scanf("%d", &b11);
+            printf("b12: ");
+            scanf("%d", &b12);
+            printf("b21: ");
+            scanf("%d", &b21);
+            printf("b22: ");
+            scanf("%d", &b22);
+
+            printf("\nRESULTADO:\n");
+
+            switch(opcao) {
+                case 1:
+                    printf("c11: %d\n", a11 + b11);
+                    printf("c12: %d\n", a12 + b12);
+                    printf("c21: %d\n", a21 + b21);
+                    printf("c22: %d\n", a22 + b22);
+                    break;
+
+                case 2:
+                    printf("c11: %d\n", a11 - b11);
+                    printf("c12: %d\n", a12 - b12);
+                    printf("c21: %d\n", a21 - b21);
+                    printf("c22: %d\n", a22 - b22);
+                    break;
+
+                case 3:
+                    printf("c11: %d\n", a11 * b11 + a12 * b21);
+                    printf("c12: %d\n", a11 * b12 + a12 * b22);
+                    printf("c21: %d\n", a21 * b11 + a22 * b21);
+                    printf("c22: %d\n", a21 * b12 + a22 * b22);
+                    break;
+            }
+        }
+        break;
