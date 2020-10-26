@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main()
+{
+    int menu, proposicional;
+    char opcao;
+
+
+    printf("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n");
+    printf("%%%%%%  CALCULA FATEC  ADS %%%%%%%%\n");
+    printf("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n\n");
+
+    do         // STAY ON MENU // PERMANEÇA NO MENU
+    {
+
+
+        printf("    MENU \n\n");
+
+        printf("1 - SOMATORIO \n");
+        printf("2 - LOGICA PROPOSICIONAL \n");
+        printf("3 - MATRIZES \n");
+        printf("4 - ANALISE COMBINATORIA \n");
+        printf("5 - SAIR \n\n");
+
+        printf(" * DIGITE A OPCAO QUE DESEJA: ");
+        scanf("%d", &menu);
+
+        printf("\n");
