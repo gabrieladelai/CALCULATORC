@@ -1,0 +1,56 @@
+int somatoria, somatoriamenu;
+        case 1:
+
+            printf("1 - Somatorio de j = m ate n para a regra j\n\n");
+            printf("2 - Somatorio de j = m ate n para a regra (−j)^(j + 1)\n\n");
+            printf("3 - Voltar ao Menu anterior\n\n");
+
+            printf(" * DIGITE A OPCAO DESEJADA: ");
+            scanf("%d,", &somatoriamenu);
+            printf("\n");
+
+            switch(somatoriamenu)
+            {
+                int m, n, j, soma;
+            case 1:
+                printf(" - DIGITE UM VALOR PARA M: ");
+                scanf("%d", &m);
+                printf(" - DIGITE UM VALOR PARA N: ");
+                scanf("%d", &n);
+
+                for(j=1, soma=0; j <= n; j++)   // Somatorio de j = m ateh n para a regra
+                {
+                    soma = soma + j;
+                }
+
+                printf("\n");
+                printf("   RESULTADO = %d \n\n", soma);
+                printf("   RETORNANDO AO MENU PRINCIAL........ \n\n");
+
+                break;
+
+            case 2:
+                printf(" - DIGITE UM VALOR PARA M: ");
+                scanf("%d", &m);
+                printf(" - DIGITE UM VALOR PARA N: ");
+                scanf("%d", &n);
+                int aux;
+
+                for(j=1, soma=0; j <= n; j++)   // Somatorio de j = m ateh n para a regra (−j)^(j + 1)
+                {
+                    soma = pow(j, j+1);         
+                    aux = soma + 1;
+                }
+
+                printf("\n");
+                printf("   RESULTADO = %d \n\n", soma);
+                printf("   RETORNANDO AO MENU PRINCIAL........ \n\n");
+
+                break;
+
+            case 3:
+                printf(" ");
+                
+            }
+
+            break;
