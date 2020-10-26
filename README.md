@@ -4,11 +4,11 @@ A calculadora foi desenvolvida para apresentação do Projeto Integrador da FATE
 ELEMENTOS A SEREM DESENVOLVIDOS: 
 
 a) Operações de somatório, lógica proposicional, matrizes e análise combinatória.
-break;
+
 b) Menu para o usuário escolher as operações. 
-break;
+
 c) Possibilidade de o usuário inserir valores, tornando o software dinâmico. 
-break;
+
 d) Impressão dos resultados na tela.  
 
 Caso o usuário digite alguma opção que não esteja no MENU, deverá aparecer uma mensagem de erro alertando-o das opções válidas. Na sequência, o menu deverá aparecer novamente. Enquanto o usuário não escolher a opção 5 (sair), o menu principal deverá continuar aparecendo." (trechos retirados do roteiro do projeto)." 
