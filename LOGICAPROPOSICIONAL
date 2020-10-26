@@ -1,0 +1,82 @@
+case 2:
+
+            printf("1. ~p \n\n");
+            printf("2. ~q \n\n");
+            printf("3. p ∧ q \n\n");
+            printf("4. p ∨ q \n\n");
+            printf("5. p V_ q \n\n");
+            printf("6. p -> q \n\n");
+            printf("7. p <-> q \n\n");
+            printf("8. VOLTAR AO MENU ANTERIOR\n\n");
+
+            printf(" * DIGITE A OPCAO ALMEJADA: ");
+            scanf("%d", &proposicional);
+
+            switch(proposicional)
+            {
+                int p, q;
+            case 1:
+                printf("| p | ~p |\n");
+                printf("| V |  F |\n");
+                printf("| F |  V |\n");
+                printf("\n");
+                break;
+
+            case 2:
+                printf("| q | ~q |\n");
+                printf("| V |  F |\n");
+                printf("| F |  V |\n");
+                printf("\n");
+                break;
+
+            case 3:
+                printf("| p | q | p∧q |\n");
+                printf("| V | V |  V   |\n");
+                printf("| V | F |  F   |\n");
+                printf("| F | V |  F   |\n");
+                printf("| F | F |  F   |\n");
+                printf("\n");
+                break;
+
+            case 4:
+                printf("| p | q | p∨q |\n");
+                printf("| V | V |  V   |\n");
+                printf("| V | F |  V   |\n");
+                printf("| F | V |  V   |\n");
+                printf("| F | F |  F   |\n");
+                printf("\n");
+                break;
+
+            case 5:
+                printf("| p | q | pV_q  |\n");
+                printf("| V | V |  F   |\n");
+                printf("| V | F |  V   |\n");
+                printf("| F | V |  V   |\n");
+                printf("| F | F |  F   |\n");
+                printf("\n");
+                break;
+
+            case 6:
+                printf("| p | q | p->q |\n");
+                printf("| V | V |  V  |\n");
+                printf("| V | F |  F  |\n");
+                printf("| F | V |  V  |\n");
+                printf("| F | F |  V  |\n");
+                printf("\n");
+                break;
+
+            case 7:
+                printf("| p | q | p<->q |\n");
+                printf("| V | V |  V  |\n");
+                printf("| V | F |  F  |\n");
+                printf("| F | V |  F  |\n");
+                printf("| F | F |  V  |\n");
+                printf("\n");
+                break;
+
+            case 8:
+                printf(" ");
+
+            }
+
+            break;
